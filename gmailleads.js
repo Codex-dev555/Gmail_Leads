@@ -6,7 +6,7 @@ function onOpen(){
 
 function getGmailEmails(){
 
-  var label = GmailApp.getUserLabelByName("CashApp");
+  var label = GmailApp.getUserLabelByName("Add Your Lebel Here");
   var threads = label.getThreads();
   
   for(var i = threads.length - 1; i >=0; i--){
